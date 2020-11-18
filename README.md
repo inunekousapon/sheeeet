@@ -1,2 +1,2 @@
 # sheeeet
-Change sheet(xlsx,csv...) for JSON
+Change sheet(xlsx,csv...) to JSON
