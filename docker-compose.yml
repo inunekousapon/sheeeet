@@ -1,0 +1,14 @@
+version: "3.0"
+
+services:
+  # FastAPI
+  web:
+    container_name: "web"
+    build: .
+    restart: always
+    tty: true
+    ports:
+      - 8000:80
+    volumes:
+      - ./app:/app
+    command: /start-reload.sh
